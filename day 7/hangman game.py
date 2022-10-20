@@ -61,8 +61,7 @@ word_list = ('ant baboon badger bat bear beaver camel cat clam cobra cougar '
              'wombat zebra ').split()
 
 # Randomly choose a word from the word_list and assign it to a variable called chosen_word
-random_word = word_list[random.randint(0, len(word_list) - 1)]
-print(random_word)
+random_word = random.choice(word_list)
 
 # For each letter in the random_word, add a "_" to 'display'
 display = []
